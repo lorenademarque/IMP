@@ -192,7 +192,7 @@
 
                     <div class="d-flex flex-column ml-1 mr-1 text-start justify-content-center">
                         <span class="nm-user">Iélio Martins</span>
-                        <span class="prf-user">Administrador</span>
+                        <span class="prf-user">teste</span>
                     </div>
 
                     <div class="d-flex settings justify-content-center align-items-center m-1 dropdown">
