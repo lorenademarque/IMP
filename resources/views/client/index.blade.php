@@ -41,7 +41,7 @@
 
     <div class="row">
         <div class="col mb-1">
-            <a href="{{ route('client.create') }}" class='btn btn-sm btn-warning'>
+            <a href="{{ route('client.create') }}" class='btn btn-sm btn-primary'>
                 <i class="fas fa-plus"></i>
                 Novo
             </a>
