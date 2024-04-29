@@ -45,7 +45,7 @@
                         <a href="#"><span class="fa fa-home mr-3"></span> Home</a>
                     </li>
                     <li>
-                        <a href="#"><span class="fa fa-user mr-3"></span> Clientes</a>
+                        <a href="{{ url('/client') }}"><span class="fa fa-user mr-3"></span> Clientes</a>
                     </li>
                     <li>
                         <a href="#"><span class="fa fa-briefcase mr-3"></span> Fornecedores</a>
@@ -67,8 +67,9 @@
 
 
                 <footer>
-                    <span class="mb-3 mb-md-0 small" style="color: #7B5123">&copy; {{ date('Y') }}
-                        {{ config('app.name') }}.@lang(' All rights reserved.')</span>
+                    <span class="mb-3 mb-md-0 small" style="color: #7B5123">&copy; {{ date('Y') }} {{ config('app.name') }}.
+                        <p>@lang(' All rights reserved.')</p>
+                    </span>
                 </footer>
 
 
@@ -100,9 +101,9 @@
     {{-- <script src="{{ asset('assets/js/popper.js') }}"></script> --}}
     <script src="{{ asset('assets/js/main.js') }}"></script>
 
-    <script>
-        @yield('scripts')
-    </script>
+
+    @yield('scripts')
+
 
 
 </body>

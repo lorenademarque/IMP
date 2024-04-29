@@ -8220,7 +8220,7 @@ h1, h2, h3, h4, h5,
       color: #fff; }
       #sidebar h1 .logo span {
         font-size: 14px;
-        color: #856404;
+        color: #7B5123;
         display: block; }
   #sidebar ul.components {
     padding: 0; }
@@ -8236,6 +8236,8 @@ h1, h2, h3, h4, h5,
       color: rgba(255, 255, 255, 0.6);
       border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
       #sidebar ul li a span {
+        color: #7B5123; }
+      #sidebar ul li a span:hover {
         color: #856404; }
       #sidebar ul li a:hover {
         color: #fff; }

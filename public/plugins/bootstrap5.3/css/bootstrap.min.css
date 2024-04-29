@@ -86,7 +86,7 @@
     --bs-body-line-height: 1.5;
     --bs-body-color: #212529;
     --bs-body-color-rgb: 33, 37, 41;
-    --bs-body-bg: #fff;
+    --bs-body-bg: #eeeded;
     --bs-body-bg-rgb: 255, 255, 255;
     --bs-emphasis-color: #000;
     --bs-emphasis-color-rgb: 0, 0, 0;
@@ -387,7 +387,7 @@ sup {
 
 a {
     color: rgba(var(--bs-link-color-rgb), var(--bs-link-opacity, 1));
-    text-decoration: underline
+    text-decoration: none
 }
 
 a:hover {
@@ -5356,11 +5356,11 @@ fieldset:disabled .btn {
 }
 
 .breadcrumb {
-    --bs-breadcrumb-padding-x: 0;
-    --bs-breadcrumb-padding-y: 0;
+    --bs-breadcrumb-padding-x: 1rem;
+    --bs-breadcrumb-padding-y: .75rem;
     --bs-breadcrumb-margin-bottom: 1rem;
-    --bs-breadcrumb-bg: ;
-    --bs-breadcrumb-border-radius: ;
+    --bs-breadcrumb-bg: #F3F5F9;
+    --bs-breadcrumb-border-radius: .25rem;
     --bs-breadcrumb-divider-color: var(--bs-secondary-color);
     --bs-breadcrumb-item-padding-x: 0.5rem;
     --bs-breadcrumb-item-active-color: var(--bs-secondary-color);
